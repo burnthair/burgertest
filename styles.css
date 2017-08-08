@@ -1,0 +1,55 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#shift-container {
+  display: inline-block;
+  flex-flow: column wrap;
+  position: relative;
+  width: 100vw;
+  height: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #c6c6e0;
+}
+
+#burger-shadow, #burger-bun-bottom, #burger-patty, #burger-mustard, #burger-lettuce-1, #burger-lettuce-2, #burger-tomato-1, #burger-tomato-2, #burger-bun-top {
+ position: absolute;
+}
+
+#burger-shadow     {top: 50.0vh; left: 3.0vw; z-index: 5; width: 25.0vw; height: 26.3vh;}
+#burger-bun-bottom {top: 48.0vh; left: 1.2vw; z-index:10; width: 22.4vw; height: 26.3vh;}
+#burger-patty      {top: 42.6vh; left: 1.1vw; z-index:20; width: 22.4vw; height: 26.0vh;}
+#burger-mustard    {top: 42.5vh; left: 4.8vw; z-index:30; width: 16.7vw; height: 20.0vh;}
+#burger-lettuce-1  {top: 39.0vh; left: 0.4vw; z-index:40; width: 17.2vw; height: 23.0vh;}
+#burger-lettuce-2  {top: 38.0vh; left: 6.1vw; z-index:50; width: 17.2vw; height: 21.1vh;}
+#burger-tomato-1   {top: 40.0vh; left: 0.8vw; z-index:60; width: 16.7vw; height: 13.8vh;}
+#burger-tomato-2   {top: 35.0vh; left: 6.4vw; z-index:70; width: 17.2vw; height: 17.1vh;}
+#burger-bun-top    {top: 23.0vh; left: 1.0vw; z-index:80; width: 22.4vw; height: 26.0vh;}
+
+/*#burger-shadow     {top: 50.0vh; left: 3.0vw; z-index: 5; width: 25.0vw; height: 26.3vh;}
+#burger-bun-bottom {top: 48.0vh; left: 1.2vw; z-index:10; width: 22.4vw; height: 26.3vh;}
+#burger-patty      {top: 42.6vh; left: 1.1vw; z-index:20; width: 22.4vw; height: 26.0vh;}
+#burger-mustard    {top: 42.5vh; left: 4.8vw; z-index:30; width: 16.7vw; height: 20.0vh;}
+#burger-lettuce-1  {top: 39.0vh; left: 0.4vw; z-index:40; width: 17.2vw; height: 23.0vh;}
+#burger-lettuce-2  {top: 38.0vh; left: 6.1vw; z-index:50; width: 17.2vw; height: 21.1vh;}
+#burger-tomato-1   {top: 40.0vh; left: 0.8vw; z-index:60; width: 16.7vw; height: 13.8vh;}
+#burger-tomato-2   {top: 35.0vh; left: 6.4vw; z-index:70; width: 17.2vw; height: 17.1vh;}
+#burger-bun-top    {top: 23.0vh; left: 1.0vw; z-index:80; width: 22.4vw; height: 26.0vh;}*/
